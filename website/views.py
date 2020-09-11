@@ -3,8 +3,11 @@ from django.http import HttpResponse
 
 
 def index(request):
-    # htttp://localhost:8000/funcionario/views_1/
 
-    print('Entramos na view 😁')
+    contexto = {
+        'nome_pessoa': 'Bruno Holmes de Albuquerque',
+        'endereço_pessoa': 'Felix de Brito e Melo',
+        'cidade_pessoa': 'Recife'
+    }
 
-    return render(request, "home.html")
+    return render(request, "home.html", contexto)
