@@ -81,6 +81,13 @@ WSGI_APPLICATION = 'helloworld.wsgi.application'
     #}
     #}
 
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, '/')
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
