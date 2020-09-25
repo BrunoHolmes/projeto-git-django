@@ -7,7 +7,6 @@
 
 </head>
 <body>
-
 <div class="header">
     <div class="conteudo_largura">
         <div class="logo">
@@ -16,11 +15,11 @@
             </a>
         </div>
         <div class="menu">
-            <ul class="textobranco fonte-menu">
+            <ul class="textobranco fonte_menu">
                 <li><a href="#">noticias</a></li>
                 <li><a href="#">vídeos</a></li>
                 <li><a href="#">em alta</a></li>
-                <li><a href="#" class="text-red-color">coronavirus</a></li>
+                <li><a href="#" class="text_red_color">coronavirus</a></li>
                 <li><a href="#">editoriais</a></li>
                 <li><a href="#">suporte</a></li>
                 <li><a href="#">news</a></li>
@@ -29,18 +28,53 @@
         </div>
     </div>
 </div>
-<div class="body">
-
-    <div class="banner-principal">
-        <h1>Espaço e Ciência</h1>
+<div class="body_site">
+    <div class="banner_principal">
+        <h1 class="titulo_h1">
+            Ciência e Espaço
+        </h1>
     </div>
 
-    <div class="conteudo-blog">
-        <a class="link-navegacao">
-            Home/ Ciencia e Espaço
+    <div class="conteudo_blog">
+        <a class="link_navegacao" href="#">
+            HOME / CIÊNCIA E ESPAÇO
         </a>
+        <br>
+        <h1 class="titulo_do_site">
+            Elon Musk precisa de 300 pessoas 'prontas para morrer' por dia em Marte
+        </h1>
+        <p class="subtitulo">
+            Serão três foguetes lançados para Marte por dia, cada um com 100 passageiros, para construir a colônia da SpaceX no planeta vermelho
+        </p>
+    </div>
+    <hr>
+    <div class="formulario_cadastro">
 
-        <h1>Elon Musk precisa de 300 pessoas 'prontas para morrer' por dia em Marte</h1>
+        <form method="POST" action="http://localhost:8000/clientes/cadastro">
+            <input type="text" name="nome" placeholder="Nome">
+            <br>
+            <input type="text" name="cpf" placeholder="CPF">
+            <br>
+            <input type="text" name="endereco" placeholder="Endereço">
+            <br>
+            <input type="text" name="numero" placeholder="Número">
+            <br>
+            <input type="text" name="complemento" placeholder="Complemento">
+            <br>
+            <input type="text" name="bairro" placeholder="Bairro">
+            <br>
+            <input type="text" name="municipio" placeholder="Municipio">
+            <br>
+            <input type="text" name="estado" placeholder="Estado">
+            <br>
+            <input type="text" name="pais" placeholder="País">
+            <br>
+            <input type="text" name="email" placeholder="E-mail">
+            <br>
+            <input type="submit">
+        </form>
+
+
     </div>
 
 </div>

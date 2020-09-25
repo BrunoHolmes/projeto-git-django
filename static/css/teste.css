@@ -1,12 +1,11 @@
 html, body{
    margin:0px !important;
    padding: 0px !important;
-   box-sizing:border-box;
 }
 
 .header{
     width: 100%;
-    height: 55px;
+    height: 50px;
     background-color: black;
     margin: none;
     align-items: center
@@ -32,22 +31,11 @@ html, body{
 
 .textobranco{color: white}
 
-.fonte-menu{
-    font-family: Verdana;
-    font-size:15px;
-    font-weight:bold;
-}
-
-.text-red-color{
-    color: red;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 li {
   display: inline;
   float: left;
@@ -64,36 +52,57 @@ li a:hover{
     background-color: rgba(255,255,255,0.3);
 }
 
-.banner-principal{
-    background: url("/static/img/banner-principal.jpg");
-    background-position: left bottom;
-    width: 100%;
-    height: 250px;
-}
-
-.body h1{
-    margin:0;
-    padding-top: 100px;
-    color: white;
-    text-align:center;
+.fonte_menu{
     font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.conteudo-blog {
+.text_red_color{
+    color: red;
+}
+
+.banner_principal{
+    background: url("/static/img/banner-principal.jpg");
+    width: 100%;
+    padding-top: 70px;
+    height: 180px;
+}
+
+.titulo_h1{
+    margin:0;
+    margin-left: 10%;
+    color: white;
+    font-family: Verdana;
+    font-size: 60px
+}
+
+.conteudo_blog{
     width: 1000px;
     margin: auto;
+    padding-top: 15px;
 }
 
-conteudo-blog p {
-    font-size: 500px;
-}
-
-.link-navegacao{
+.link_navegacao{
     font-family: Verdana;
     color: green;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    padding-top: 20px;
-    display: inline-block;
+}
+.titulo_do_site{
+    font-family: 'Kufam', cursive, 'Roboto', Tahoma,Arial,Verdana;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.subtitulo{
+    font-family: 'Kufam', cursive, 'Roboto', Tahoma,Arial,Verdana;
+    font-size: 25px;
+}
+
+.formulario_cadastro{
+    width: 1000px;
+    margin: auto;
+    padding-top: 15px;
 }
